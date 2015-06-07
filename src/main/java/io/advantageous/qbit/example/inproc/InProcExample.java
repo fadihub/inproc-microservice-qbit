@@ -55,7 +55,7 @@
 
 package io.advantageous.qbit.example.inproc;
 
-import io.advantageous.qbit.service.Callback;
+import io.advantageous.qbit.reactive.Callback;
 import io.advantageous.qbit.service.ServiceQueue;
 import io.advantageous.boon.core.Sys;
 
@@ -93,7 +93,7 @@ public class InProcExample {
          */
         final ServiceQueue service = serviceBuilder()
                 .setServiceObject(todoManagerImpl)
-                .build().start();
+                .build().startServiceQueue();
 
 
         /* Create Asynchronous proxy over Synchronous service. */
@@ -155,7 +155,7 @@ public class InProcExample {
         final ServiceQueue service = serviceBuilder()
                 .setRequestQueueBuilder(queueBuilder().setBatchSize(1))
                 .setServiceObject(todoManagerImpl).setInvokeDynamic(false)
-                .build().start();
+                .build().startServiceQueue();
 
 
         /* Create Asynchronous proxy over Synchronous service. */
