@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e58116ba-2eef-4c6b-9806-8b27de0beff8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/advantageous/qbit/example/inproc/InProcExample.java" afterPath="$PROJECT_DIR$/src/main/java/io/advantageous/qbit/example/inproc/InProcExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inproc-microservice-qbit.iml" afterPath="$PROJECT_DIR$/inproc-microservice-qbit.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inproc-microservice-qbit.ipr" afterPath="$PROJECT_DIR$/inproc-microservice-qbit.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inproc-microservice-qbit.iws" afterPath="$PROJECT_DIR$/inproc-microservice-qbit.iws" />
-    </list>
+    <list default="true" id="e58116ba-2eef-4c6b-9806-8b27de0beff8" name="Default" comment="" />
     <ignored path="inproc-microservice-qbit.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
